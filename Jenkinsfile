@@ -68,7 +68,7 @@ pipeline{
                         sh """
                         
                         echo "Creating Terraform Plan"
-                        terraform plan -var "client_id=$id-terraformtest" -var "client_secret=$eW9yDKZL~_rERWVdqB7p1Q1~hB8oLi02aj" -var "subscription_id=$edfaf05d-e154-4419-8020-f5e20f278d63" -var "tenant_id=$58357bf7-2207-40ed-ab8d-f21fcf2a1035"
+                        terraform plan -var "client_id=id-terraformtest" -var "client_secret=eW9yDKZL~_rERWVdqB7p1Q1~hB8oLi02aj" -var "subscription_id=edfaf05d-e154-4419-8020-f5e20f278d63" -var "tenant_id=58357bf7-2207-40ed-ab8d-f21fcf2a1035"
                         """
                         }
                 }

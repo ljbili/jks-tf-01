@@ -20,12 +20,6 @@ terraform {
   }
 }
 
-provider "azuread" {
-  client_id     = "id-terraformtest"
-  client_secret = "eW9yDKZL~_rERWVdqB7p1Q1~hB8oLi02aj"
-  tenant_id     = "58357bf7-2207-40ed-ab8d-f21fcf2a1035"
-}
-
 
 
 ###################cntivité
